@@ -17,7 +17,7 @@ export default function Hero(props: HeroProps) {
           app, managing your account and billing.
         </p>
       </div>
-      <div className="grid grid-cols-3 gap-8">
+      <div className="grid-cols-3 gap-8 px-8 space-y-8 md:grid md:space-y-0 md:px-0">
         <div className="p-5 bg-white border border-gray-300 rounded-sm">
           <h2 className="mb-1 text-xl text-gray-900 font-cal">Start a chat</h2>
           <p className="mb-4 text-sm text-gray-500">
